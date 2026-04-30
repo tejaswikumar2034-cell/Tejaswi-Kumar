@@ -13,6 +13,7 @@ body {
     color: white;
 }
 
+/* HEADER */
 header {
     display: flex;
     align-items: center;
@@ -23,16 +24,22 @@ header {
     flex-wrap: wrap;
 }
 
+/* PROFILE IMAGE */
 header img {
     width: 180px;
-    border-radius: 15px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
 }
 
+/* NAME */
 h1 {
     font-size: 42px;
     margin: 0;
 }
 
+/* SECTIONS */
 section {
     padding: 40px;
     max-width: 1000px;
@@ -45,6 +52,7 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* CARDS */
 .card {
     background: #1e293b;
     padding: 20px;
@@ -52,6 +60,7 @@ h2 {
     border-radius: 10px;
 }
 
+/* SKILLS */
 .skills span {
     background: #38bdf8;
     color: black;
@@ -61,6 +70,7 @@ h2 {
     border-radius: 20px;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -72,7 +82,9 @@ footer {
 <body>
 
 <header>
-    <img src="your-photo.jpg" alt="Tejaswi Kumar">
+    <!-- 🔥 PUT YOUR PHOTO FILE HERE -->
+    <img src="photo.jpg" alt="Tejaswi Kumar">
+
     <div>
         <h1>Tejaswi Kumar</h1>
         <p>BTech CSE Student</p>
